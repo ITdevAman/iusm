@@ -8,6 +8,8 @@ import MEN from "../images/men.jpg";
 import DEI from "../images/dei.jpg";
 import DEI2 from "../images/img_21.png";
 import DELO from "../images/img_15.png";
+import cardFon from "../images/img.png";
+import onlineFon from "../images/img_14.png";
 
 export default function indexCard() {
     const {formatMessage} = useIntl();
@@ -58,7 +60,7 @@ export default function indexCard() {
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-6 ">
                         <div className="indexCard " onClick={openModal}>
-                            <img src={require('../images/img.png').default.src} alt=""/>
+                            <Image src={cardFon} layout="fill"/>
                             <div className="indexCard_card_line"/>
                             <div className="indexCard_card_line2"/>
                             <div className="indexCard_card">
@@ -71,7 +73,7 @@ export default function indexCard() {
                         <div className="indexCard">
                             <div className="indexCard_card_line"/>
                             <div className="indexCard_card_line2"/>
-                            <img src={require('../images/img.png').default.src} alt=""/>
+                            <Image src={cardFon} layout="fill"/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName2"})}</h1>
                                 <a href="#">{formatMessage({id: "linkcard"})}</a>
@@ -82,7 +84,7 @@ export default function indexCard() {
                         <div className="indexCard">
                             <div className="indexCard_card_line"/>
                             <div className="indexCard_card_line2"/>
-                            <img src={require('../images/img.png').default.src} alt=""/>
+                            <Image src={cardFon} layout="fill"/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName3"})}</h1>
                                 <a href="#">{formatMessage({id: "linkcard"})}</a>
@@ -93,7 +95,7 @@ export default function indexCard() {
                         <div className="indexCard">
                             <div className="indexCard_card_line"/>
                             <div className="indexCard_card_line2"/>
-                            <img src={require('../images/img.png').default.src} alt=""/>
+                            <Image src={cardFon} layout="fill"/>
                             <div className="indexCard_card">
                                 <h1>{formatMessage({id: "cardName4"})}</h1>
                                 <a href="#">{formatMessage({id: "linkcard"})}</a>
@@ -276,7 +278,7 @@ export default function indexCard() {
                     </div>
                     <div className="col-lg-3 ">
                         <div className="indexCard_person">
-                            <img src={require("../images/img_14.png").default.src} alt=""/>
+                            <Image src={onlineFon} layout="fill"/>
                             <div className="indexCard_person_block">
                                 <h1>{formatMessage({id: "onlain"})}</h1>
                                 <a href="https://api.whatsapp.com/send?phone=0999010040">{formatMessage({id: "onlainBtn"})}</a>
