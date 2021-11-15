@@ -21,7 +21,7 @@
     "csstype": "^3.0.9",
     "export": "^0.1.337",
     "html2pdf": "0.0.11",
-    "next": "11.1.2",
+    "next": "^12.0.3",
     "next-redux-wrapper": "^7.0.5",
     "react": "17.0.2",
     "react-burger-menu": "^3.0.6",
