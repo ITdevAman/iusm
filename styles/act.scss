@@ -1,0 +1,38 @@
+
+
+.actHero{
+  width: 100%;
+  background: white;
+}
+.act_container{
+  width: 100%;
+  background-color: #F0F0F0;
+  &_block{
+    padding-top: 150px;
+    & h1 {
+      clear: both;
+      text-align: center;
+      padding: 5px 5px;
+      margin: 2px 0;
+      color: #0B2D50;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+  &_box{
+    display: flex ;
+    flex-direction: column;
+    padding: 30px;
+    & a{
+      margin: 7px 0;
+      line-height: 25px;
+      font-weight: 300;
+      text-decoration: none;
+      color: #0000EE;
+      & span{
+        margin: 0 10px;
+        color: #0000EE;
+      }
+    }
+  }
+}

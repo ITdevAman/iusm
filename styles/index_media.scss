@@ -1,0 +1,162 @@
+@media (max-width: 1024px) {
+  .select {
+    padding: 35px 3px;
+  }
+  .header__navbar_a {
+    margin: 0 5px;
+  }
+  .header__navbar{
+    display: flex;
+    margin-left: -50px;
+  }
+  .header__logo{
+    margin-left: 104px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .header__navbar {
+    margin-left: -50px;
+  }
+  .header__logo{
+    margin-left: 154px;
+  }
+  .header__navbar_a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__navbar {
+    display: none;
+  }
+  .header {
+    padding: 1px;
+  }
+  .header__logo {
+    margin-left: 30px;
+  }
+  .select {
+    padding: 35px 30px;
+  }
+  #react-burger-menu-btn{
+    display: block !important;
+  }
+  .header__navbar_a{
+    color: white;
+    margin: 10px 0;
+    font-weight: 350;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+  .header__logo {
+    margin-left: 60px;
+
+    & img {
+      width: 100px;
+    }
+  }
+  #react-burger-menu-btn{
+    margin-left: -40px !important;
+  }
+  .select {
+    padding: 35px 3px;
+  }
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+  select {
+    padding: 6px 2px;
+  }
+  #react-burger-menu-btn{
+    margin-left: -70px !important;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .footer__logo {
+    display: none;
+  }
+  .footer_line {
+    & h1 {
+      font-size: 11px;
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+  .footer_adress {
+    span {
+      font-size: 16px;
+
+    }
+
+    & h1 {
+      font-size: 12px;
+    }
+  }
+  .footer__logo__block {
+    right: 20px;
+    bottom: 20px;
+  & a {
+    width: 25px;
+    height: 25px;
+  }
+  }
+  }
+
+@media (max-width: 375px) {
+  .footer_adress {
+    span {
+      font-size: 14px;
+
+    }
+
+    & h1 {
+      font-size: 10px;
+    }
+  }
+  .footer_line {
+    & h1 {
+      font-size: 8px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__logo__block {
+    right: 10px;
+    bottom: 10px;
+    & a {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

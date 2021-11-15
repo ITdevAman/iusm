@@ -1,0 +1,49 @@
+{
+  "name": "mumnunivercity",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "serve": "concurrently \"npm run dev \" \"npm run mock \" ",
+    "mock": "json-server -w db.json -p 4200 -d 450",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@reduxjs/toolkit": "^1.6.2",
+    "bootstrap": "^5.0.0-beta3",
+    "bootstrap-next": "^1.0.5",
+    "csstype": "^3.0.9",
+    "export": "^0.1.337",
+    "html2pdf": "0.0.11",
+    "next": "11.1.2",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "17.0.2",
+    "react-intl": "^5.20.13",
+    "react-modal": "^3.14.3",
+    "react-redux": "^7.2.5",
+    "reactstrap": "^8.10.0",
+    "sass": "^1.43.2",
+    "swiper": "^7.0.8"
+  },
+  "devDependencies": {
+    "@2gis/mapgl": "^1.19.1",
+    "concurrently": "^6.3.0",
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2",
+    "html-pdf": "^3.0.1",
+    "html-to-image": "^1.9.0",
+    "keen-slider": "^5.5.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}

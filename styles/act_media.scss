@@ -1,0 +1,17 @@
+@media (max-width: 414px) {
+  .act_container_block h1{
+    font-size: 20px;
+  }
+  .act_container_box a{
+    line-height: 20px;
+    font-size: 15px;
+  }
+}@media (max-width: 375px) {
+  .act_container_block h1{
+    font-size: 18px;
+  }
+  .act_container_box a{
+     line-height: 16px;
+     font-size: 12px;
+   }
+}
